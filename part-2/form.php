@@ -2,7 +2,7 @@
 
 $success = 0;
 
-$link = mysqli_connect("localhost", "root", "", "test");
+$link = mysqli_connect("localhost", "root", "", "login");
 
 if (isset($_POST['username'], $_POST['password'])) {
 	$username = $_POST['username'];
